@@ -20,6 +20,10 @@
 		A6B9DD101F2720D200C2D327 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B9DD0F1F2720D200C2D327 /* HomeViewController.m */; };
 		A6B9DD131F2720DE00C2D327 /* MeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B9DD121F2720DE00C2D327 /* MeViewController.m */; };
 		A6B9DD161F27219100C2D327 /* PHIUserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B9DD151F27219100C2D327 /* PHIUserManager.m */; };
+		A6C2D75F1F29CA38002342B6 /* ManageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C2D75D1F29CA38002342B6 /* ManageTableViewCell.m */; };
+		A6C2D7601F29CA38002342B6 /* ManageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6C2D75E1F29CA38002342B6 /* ManageTableViewCell.xib */; };
+		A6C2D7641F29CA74002342B6 /* DemandTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C2D7621F29CA74002342B6 /* DemandTableViewCell.m */; };
+		A6C2D7651F29CA74002342B6 /* DemandTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6C2D7631F29CA74002342B6 /* DemandTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +53,12 @@
 		A6B9DD151F27219100C2D327 /* PHIUserManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHIUserManager.m; sourceTree = "<group>"; };
 		A6B9DD171F2721B900C2D327 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		A6B9DD181F27223300C2D327 /* MacroDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacroDefinition.h; sourceTree = "<group>"; };
+		A6C2D75C1F29CA38002342B6 /* ManageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManageTableViewCell.h; sourceTree = "<group>"; };
+		A6C2D75D1F29CA38002342B6 /* ManageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManageTableViewCell.m; sourceTree = "<group>"; };
+		A6C2D75E1F29CA38002342B6 /* ManageTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ManageTableViewCell.xib; sourceTree = "<group>"; };
+		A6C2D7611F29CA74002342B6 /* DemandTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemandTableViewCell.h; sourceTree = "<group>"; };
+		A6C2D7621F29CA74002342B6 /* DemandTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemandTableViewCell.m; sourceTree = "<group>"; };
+		A6C2D7631F29CA74002342B6 /* DemandTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemandTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +95,7 @@
 				A6B9DCFF1F27202400C2D327 /* Base */,
 				A6B9DD091F27206400C2D327 /* Home */,
 				A6B9DD0A1F27206400C2D327 /* Me */,
+				A6C2D75B1F29C697002342B6 /* venv */,
 				A6B9DCEB1F271EAB00C2D327 /* AppDelegate.h */,
 				A6B9DCEC1F271EAB00C2D327 /* AppDelegate.m */,
 				A6B9DCEE1F271EAB00C2D327 /* ViewController.h */,
@@ -129,6 +140,12 @@
 			children = (
 				A6B9DD0E1F2720D200C2D327 /* HomeViewController.h */,
 				A6B9DD0F1F2720D200C2D327 /* HomeViewController.m */,
+				A6C2D75C1F29CA38002342B6 /* ManageTableViewCell.h */,
+				A6C2D75D1F29CA38002342B6 /* ManageTableViewCell.m */,
+				A6C2D75E1F29CA38002342B6 /* ManageTableViewCell.xib */,
+				A6C2D7611F29CA74002342B6 /* DemandTableViewCell.h */,
+				A6C2D7621F29CA74002342B6 /* DemandTableViewCell.m */,
+				A6C2D7631F29CA74002342B6 /* DemandTableViewCell.xib */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -140,6 +157,13 @@
 				A6B9DD121F2720DE00C2D327 /* MeViewController.m */,
 			);
 			path = Me;
+			sourceTree = "<group>";
+		};
+		A6C2D75B1F29C697002342B6 /* venv */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = venv;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,7 +224,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6C2D7601F29CA38002342B6 /* ManageTableViewCell.xib in Resources */,
 				A6B9DCF81F271EAC00C2D327 /* LaunchScreen.storyboard in Resources */,
+				A6C2D7651F29CA74002342B6 /* DemandTableViewCell.xib in Resources */,
 				A6B9DCF51F271EAC00C2D327 /* Assets.xcassets in Resources */,
 				A6B9DCF31F271EAB00C2D327 /* Main.storyboard in Resources */,
 			);
@@ -217,8 +243,10 @@
 				A6B9DD061F27202400C2D327 /* BaseNavigationController.m in Sources */,
 				A6B9DD081F27202400C2D327 /* PhippyTabBarController.m in Sources */,
 				A6B9DCF01F271EAB00C2D327 /* ViewController.m in Sources */,
+				A6C2D7641F29CA74002342B6 /* DemandTableViewCell.m in Sources */,
 				A6B9DCED1F271EAB00C2D327 /* AppDelegate.m in Sources */,
 				A6B9DD0D1F27209F00C2D327 /* PhippyViewController.m in Sources */,
+				A6C2D75F1F29CA38002342B6 /* ManageTableViewCell.m in Sources */,
 				A6B9DD161F27219100C2D327 /* PHIUserManager.m in Sources */,
 				A6B9DCEA1F271EAB00C2D327 /* main.m in Sources */,
 				A6B9DD071F27202400C2D327 /* BaseTabViewController.m in Sources */,
@@ -381,6 +409,7 @@
 				A6B9DCFE1F271EAC00C2D327 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
