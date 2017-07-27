@@ -24,6 +24,11 @@
 		A6C2D7601F29CA38002342B6 /* ManageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6C2D75E1F29CA38002342B6 /* ManageTableViewCell.xib */; };
 		A6C2D7641F29CA74002342B6 /* DemandTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C2D7621F29CA74002342B6 /* DemandTableViewCell.m */; };
 		A6C2D7651F29CA74002342B6 /* DemandTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6C2D7631F29CA74002342B6 /* DemandTableViewCell.xib */; };
+		A6C2D7691F29D155002342B6 /* ManageMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C2D7681F29D155002342B6 /* ManageMenuViewController.m */; };
+		A6C2D76D1F29DC55002342B6 /* FoodDetailCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C2D76B1F29DC55002342B6 /* FoodDetailCollectionViewCell.m */; };
+		A6C2D76E1F29DC55002342B6 /* FoodDetailCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6C2D76C1F29DC55002342B6 /* FoodDetailCollectionViewCell.xib */; };
+		A6C2D7721F29DD5D002342B6 /* MerchantLogoReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C2D7701F29DD5D002342B6 /* MerchantLogoReusableView.m */; };
+		A6C2D7731F29DD5D002342B6 /* MerchantLogoReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6C2D7711F29DD5D002342B6 /* MerchantLogoReusableView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +64,14 @@
 		A6C2D7611F29CA74002342B6 /* DemandTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemandTableViewCell.h; sourceTree = "<group>"; };
 		A6C2D7621F29CA74002342B6 /* DemandTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemandTableViewCell.m; sourceTree = "<group>"; };
 		A6C2D7631F29CA74002342B6 /* DemandTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemandTableViewCell.xib; sourceTree = "<group>"; };
+		A6C2D7671F29D155002342B6 /* ManageMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManageMenuViewController.h; sourceTree = "<group>"; };
+		A6C2D7681F29D155002342B6 /* ManageMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManageMenuViewController.m; sourceTree = "<group>"; };
+		A6C2D76A1F29DC55002342B6 /* FoodDetailCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodDetailCollectionViewCell.h; sourceTree = "<group>"; };
+		A6C2D76B1F29DC55002342B6 /* FoodDetailCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodDetailCollectionViewCell.m; sourceTree = "<group>"; };
+		A6C2D76C1F29DC55002342B6 /* FoodDetailCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FoodDetailCollectionViewCell.xib; sourceTree = "<group>"; };
+		A6C2D76F1F29DD5D002342B6 /* MerchantLogoReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MerchantLogoReusableView.h; sourceTree = "<group>"; };
+		A6C2D7701F29DD5D002342B6 /* MerchantLogoReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MerchantLogoReusableView.m; sourceTree = "<group>"; };
+		A6C2D7711F29DD5D002342B6 /* MerchantLogoReusableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MerchantLogoReusableView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +151,7 @@
 		A6B9DD091F27206400C2D327 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				A6C2D7661F29D132002342B6 /* ManageMenu */,
 				A6B9DD0E1F2720D200C2D327 /* HomeViewController.h */,
 				A6B9DD0F1F2720D200C2D327 /* HomeViewController.m */,
 				A6C2D75C1F29CA38002342B6 /* ManageTableViewCell.h */,
@@ -164,6 +178,21 @@
 			children = (
 			);
 			path = venv;
+			sourceTree = "<group>";
+		};
+		A6C2D7661F29D132002342B6 /* ManageMenu */ = {
+			isa = PBXGroup;
+			children = (
+				A6C2D76F1F29DD5D002342B6 /* MerchantLogoReusableView.h */,
+				A6C2D7701F29DD5D002342B6 /* MerchantLogoReusableView.m */,
+				A6C2D7711F29DD5D002342B6 /* MerchantLogoReusableView.xib */,
+				A6C2D76A1F29DC55002342B6 /* FoodDetailCollectionViewCell.h */,
+				A6C2D76B1F29DC55002342B6 /* FoodDetailCollectionViewCell.m */,
+				A6C2D76C1F29DC55002342B6 /* FoodDetailCollectionViewCell.xib */,
+				A6C2D7671F29D155002342B6 /* ManageMenuViewController.h */,
+				A6C2D7681F29D155002342B6 /* ManageMenuViewController.m */,
+			);
+			path = ManageMenu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -225,9 +254,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6C2D7601F29CA38002342B6 /* ManageTableViewCell.xib in Resources */,
+				A6C2D7731F29DD5D002342B6 /* MerchantLogoReusableView.xib in Resources */,
 				A6B9DCF81F271EAC00C2D327 /* LaunchScreen.storyboard in Resources */,
 				A6C2D7651F29CA74002342B6 /* DemandTableViewCell.xib in Resources */,
 				A6B9DCF51F271EAC00C2D327 /* Assets.xcassets in Resources */,
+				A6C2D76E1F29DC55002342B6 /* FoodDetailCollectionViewCell.xib in Resources */,
 				A6B9DCF31F271EAB00C2D327 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,11 +271,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6B9DD131F2720DE00C2D327 /* MeViewController.m in Sources */,
+				A6C2D76D1F29DC55002342B6 /* FoodDetailCollectionViewCell.m in Sources */,
 				A6B9DD061F27202400C2D327 /* BaseNavigationController.m in Sources */,
+				A6C2D7721F29DD5D002342B6 /* MerchantLogoReusableView.m in Sources */,
 				A6B9DD081F27202400C2D327 /* PhippyTabBarController.m in Sources */,
 				A6B9DCF01F271EAB00C2D327 /* ViewController.m in Sources */,
 				A6C2D7641F29CA74002342B6 /* DemandTableViewCell.m in Sources */,
 				A6B9DCED1F271EAB00C2D327 /* AppDelegate.m in Sources */,
+				A6C2D7691F29D155002342B6 /* ManageMenuViewController.m in Sources */,
 				A6B9DD0D1F27209F00C2D327 /* PhippyViewController.m in Sources */,
 				A6C2D75F1F29CA38002342B6 /* ManageTableViewCell.m in Sources */,
 				A6B9DD161F27219100C2D327 /* PHIUserManager.m in Sources */,

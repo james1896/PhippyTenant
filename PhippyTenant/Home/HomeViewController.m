@@ -9,6 +9,7 @@
 #import "HomeViewController.h"
 #import "ManageTableViewCell.h"
 #import "DemandTableViewCell.h"
+#import "ManageMenuViewController.h"
 
 //---------------------------------------------------------------------------------------
 //  HomeHeaderView
@@ -97,7 +98,10 @@
 }
 
 - (void)manageTap{
-    NSLog(@"%@",NSStringFromSelector(_cmd));
+    ManageMenuViewController *controller = [[ManageMenuViewController alloc]init];
+    controller.title = @"菜单管理";
+    controller.hidesBottomBarWhenPushed = YES;
+    [self.phippyNavigationController pushViewController:controller animated:YES];
 }
 
 @end

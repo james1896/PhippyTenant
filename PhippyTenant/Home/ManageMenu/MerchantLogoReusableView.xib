@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="U6b-Vx-4bR" customClass="MerchantLogoReusableView">
+            <rect key="frame" x="0.0" y="0.0" width="336" height="206"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="EHC-gj-hLg">
+                    <rect key="frame" x="0.0" y="0.0" width="336" height="206"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6t4-4S-zph">
+                    <rect key="frame" x="336" y="206" width="0.0" height="0.0"/>
+                    <color key="backgroundColor" red="0.38544379340000001" green="0.49481879340000001" blue="0.65448676220000002" alpha="0.41058433220000001" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.43815508120000002" green="1" blue="0.59817024699999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="6t4-4S-zph" secondAttribute="trailing" id="9xw-Up-X7P"/>
+                <constraint firstItem="EHC-gj-hLg" firstAttribute="top" secondItem="U6b-Vx-4bR" secondAttribute="top" id="OvZ-jQ-h1a"/>
+                <constraint firstAttribute="bottom" secondItem="EHC-gj-hLg" secondAttribute="bottom" id="ZyT-LE-5hh"/>
+                <constraint firstItem="EHC-gj-hLg" firstAttribute="leading" secondItem="U6b-Vx-4bR" secondAttribute="leading" id="htd-3Y-lxt"/>
+                <constraint firstAttribute="trailing" secondItem="EHC-gj-hLg" secondAttribute="trailing" id="vTs-pG-iii"/>
+                <constraint firstAttribute="bottom" secondItem="6t4-4S-zph" secondAttribute="bottom" id="zrD-d9-4y9"/>
+            </constraints>
+            <connections>
+                <outlet property="backImgView" destination="EHC-gj-hLg" id="UoE-L8-yJW"/>
+                <outlet property="qisongCondition" destination="6t4-4S-zph" id="B6D-LL-yke"/>
+            </connections>
+            <point key="canvasLocation" x="42" y="132"/>
+        </collectionReusableView>
+    </objects>
+</document>
