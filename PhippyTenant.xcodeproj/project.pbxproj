@@ -121,6 +121,8 @@
 		A6C2D7C21F2ACACF002342B6 /* PresentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresentViewController.h; sourceTree = "<group>"; };
 		A6C2D7C31F2ACACF002342B6 /* PresentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresentViewController.m; sourceTree = "<group>"; };
 		A6C2D7C51F2ACACF002342B6 /* LLImagePicker.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = LLImagePicker.bundle; sourceTree = "<group>"; };
+		A6C2D7D51F2AD42F002342B6 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		A6C2D7D61F2AD42F002342B6 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -360,6 +362,7 @@
 				TargetAttributes = {
 					A6B9DCE41F271EAA00C2D327 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = FJ8N4S5A53;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -492,6 +495,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				A6B9DCF21F271EAB00C2D327 /* Base */,
+				A6C2D7D51F2AD42F002342B6 /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -500,6 +504,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				A6B9DCF71F271EAC00C2D327 /* Base */,
+				A6C2D7D61F2AD42F002342B6 /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -511,6 +516,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -559,6 +565,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -602,8 +609,10 @@
 			baseConfigurationReference = 43982873089396DE3A2938A7 /* Pods-PhippyTenant.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FJ8N4S5A53;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/PhippyTenant/PrefixHeader.pch";
 				INFOPLIST_FILE = PhippyTenant/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kg.app.PhippyTenant;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -615,8 +624,10 @@
 			baseConfigurationReference = 4FF34938DE8B0AA05160F626 /* Pods-PhippyTenant.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FJ8N4S5A53;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/PhippyTenant/PrefixHeader.pch";
 				INFOPLIST_FILE = PhippyTenant/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kg.app.PhippyTenant;
 				PRODUCT_NAME = "$(TARGET_NAME)";

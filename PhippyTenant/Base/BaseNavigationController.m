@@ -25,15 +25,20 @@
     //     self.visibleViewController.automaticallyAdjustsScrollViewInsets = NO;
     
     //自定义一个按钮
-    UIButton  *leftBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-    [leftBtn addTarget:self action:@selector(backLastView) forControlEvents:UIControlEventTouchUpInside];
-    leftBtn.frame = CGRectMake(-6, 5, 30, 22);
-    [leftBtn setBackgroundImage:[UIImage imageNamed:@"back"] forState:UIControlStateNormal];
-    [leftBtn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
-    //将leftItem设置为自定义按钮
+//    UIButton  *leftBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+////    [leftBtn addTarget:self action:@selector(backLastView) forControlEvents:UIControlEventTouchUpInside];
+//    leftBtn.frame = CGRectMake(-8, 8, 25, 22);
+//    [leftBtn setBackgroundImage:[UIImage imageNamed:@"back"] forState:UIControlStateNormal];
+//    [leftBtn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+//    //将leftItem设置为自定义按钮
     
-    UIView *backView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, 60, 44)];
+    UIImageView *leftBtn = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"back"]];
+    leftBtn.frame =CGRectMake(-8, 8, 25, 22);
+    UIView *backView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, 44, 44)];
     [backView addSubview:leftBtn];
+    
+    UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(backLastView)];
+    [backView addGestureRecognizer:tap];
     UIBarButtonItem  *leftItem =[[UIBarButtonItem alloc]initWithCustomView: backView];
     self.topViewController.navigationItem.leftBarButtonItem = leftItem;
     
@@ -43,7 +48,7 @@
     //自定义一个按钮
     UIButton  *rightBtn = [UIButton buttonWithType:UIButtonTypeCustom];
     
-    rightBtn.frame = CGRectMake(0, 0, 60, 44);
+    rightBtn.frame = CGRectMake(10, 2, 25, 25);
     rightBtn.titleLabel.font = [UIFont systemFontOfSize:14];
 
     if (image) [rightBtn setBackgroundImage:image forState:UIControlStateNormal];
@@ -52,7 +57,7 @@
     [rightBtn setTitleColor: COLOR(168, 168, 168, 1) forState:UIControlStateNormal];
     //将leftItem设置为自定义按钮
     
-    UIView *backView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, 60, 44)];
+    UIView *backView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, 35, 30)];
     [backView addSubview:rightBtn];
     UIBarButtonItem  *rightItem =[[UIBarButtonItem alloc]initWithCustomView: backView];
     self.topViewController.navigationItem.rightBarButtonItem = rightItem;
@@ -109,8 +114,8 @@
     
     //1.去掉nav下方的 黑线
     //     2.
-    [self.navigationBar setBackgroundImage:[self createImageWithColor:[UIColor colorWithRed:1 green:1 blue:1 alpha:0.8]] forBarMetrics:UIBarMetricsDefault];
-    self.navigationBar.barStyle = UIBarStyleDefault;
+//    [self.navigationBar setBackgroundImage:[self createImageWithColor:[UIColor colorWithRed:1 green:1 blue:1 alpha:0.8]] forBarMetrics:UIBarMetricsDefault];
+//    self.navigationBar.barStyle = UIBarStyleDefault;
     
     //navbar自带的 透明
     //    self.navigationBar.translucent = NO;

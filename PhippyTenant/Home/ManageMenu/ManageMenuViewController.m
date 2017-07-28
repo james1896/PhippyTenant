@@ -8,6 +8,7 @@
 
 #import "ManageMenuViewController.h"
 #import "FoodDetailCollectionViewCell.h"
+#import "LLImageViewController.h"
 
 #define angle2Rad(angle) ((angle) / 180.0 * M_PI)
 
@@ -44,9 +45,16 @@
     [self.collectionView reloadData];
     
 }
+
+- (void)plusPress:(UIButton *)sender {
+    LLImageViewController *controller = [[LLImageViewController alloc]init];
+    [self.phippyNavigationController pushViewController:controller animated:YES];
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self.phippyNavigationController addBackButton];
+    [self.phippyNavigationController addRightButtonWithTilte:nil image:[UIImage imageNamed:@"plus"] targat:self action:@selector(plusPress:)];
     [self.view addSubview:self.collectionView];
     
     _longPress = [[UILongPressGestureRecognizer alloc] initWithTarget:self action:@selector(lonePressMoving:)];
@@ -207,9 +215,7 @@
         case UIGestureRecognizerStateEnded: {
             [self.collectionView endInteractiveMovement];
             
-            //取消cell摇动
-            [sharkeCell.layer removeAllAnimations];
-            sharkeCell.btnDelete.hidden = YES;
+     
             break;
         }
         default: [self.collectionView cancelInteractiveMovement];
@@ -247,6 +253,19 @@
 #pragma mark---UICollectionViewDelegate
 
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath{
+    
+    if(sharkeCell){
+        NSIndexPath *indPath = [collectionView indexPathForCell:sharkeCell];
+        if([indPath isEqual:indexPath]){
+            //取消cell摇动
+            [sharkeCell.layer removeAllAnimations];
+            sharkeCell.btnDelete.hidden = YES;
+            sharkeCell = nil;
+            return;
+        }
+       
+    }
+ 
     NSLog(@"%@",self.dataArray[indexPath.item]);
 }
 
