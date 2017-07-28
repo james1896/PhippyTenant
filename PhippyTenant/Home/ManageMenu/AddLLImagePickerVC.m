@@ -8,7 +8,7 @@
 
 #import "AddLLImagePickerVC.h"
 #import "LLImagePickerView.h"
-
+#import "UIImage+Phippy.h"
 @interface AddLLImagePickerVC ()
 
 @end
@@ -28,6 +28,14 @@
     self.tableView.tableHeaderView = pickerV;    
     [pickerV observeSelectedMediaArray:^(NSArray<LLImagePickerModel *> *list) {
         NSLog(@"%@",list);
+        for(LLImagePickerModel *model in list){
+            
+            NSData *data = (NSData *)model.uploadType;
+            
+            UIImage *compress = [model.image compressWithTargetSize:CGSizeMake(480, 360)];
+            
+            NSLog(@"%ld kb compress:%ld kb",data.length/1024,UIImagePNGRepresentation(compress).length/1024);
+        }
     }];    
 }
 

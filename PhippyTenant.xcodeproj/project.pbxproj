@@ -30,9 +30,6 @@
 		A6C2D76E1F29DC55002342B6 /* FoodDetailCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6C2D76C1F29DC55002342B6 /* FoodDetailCollectionViewCell.xib */; };
 		A6C2D7721F29DD5D002342B6 /* MerchantLogoReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C2D7701F29DD5D002342B6 /* MerchantLogoReusableView.m */; };
 		A6C2D7731F29DD5D002342B6 /* MerchantLogoReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6C2D7711F29DD5D002342B6 /* MerchantLogoReusableView.xib */; };
-		A6C2D7C61F2ACACF002342B6 /* AddLLImagePickerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C2D7A61F2ACACF002342B6 /* AddLLImagePickerVC.m */; };
-		A6C2D7C71F2ACACF002342B6 /* DisplayLLImagePickerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C2D7A81F2ACACF002342B6 /* DisplayLLImagePickerVC.m */; };
-		A6C2D7C81F2ACACF002342B6 /* EditLLImagePickerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C2D7AA1F2ACACF002342B6 /* EditLLImagePickerVC.m */; };
 		A6C2D7C91F2ACACF002342B6 /* NSString+LLMediaExt.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C2D7AD1F2ACACF002342B6 /* NSString+LLMediaExt.m */; };
 		A6C2D7CA1F2ACACF002342B6 /* UIImage+LLGif.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C2D7AF1F2ACACF002342B6 /* UIImage+LLGif.m */; };
 		A6C2D7CB1F2ACACF002342B6 /* UIImageView+LLMediaExt.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C2D7B11F2ACACF002342B6 /* UIImageView+LLMediaExt.m */; };
@@ -42,9 +39,15 @@
 		A6C2D7CF1F2ACACF002342B6 /* LLImagePickerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C2D7BB1F2ACACF002342B6 /* LLImagePickerManager.m */; };
 		A6C2D7D01F2ACACF002342B6 /* LLImagePickerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C2D7BD1F2ACACF002342B6 /* LLImagePickerModel.m */; };
 		A6C2D7D11F2ACACF002342B6 /* LLImagePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C2D7BF1F2ACACF002342B6 /* LLImagePickerView.m */; };
-		A6C2D7D21F2ACACF002342B6 /* LLImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C2D7C11F2ACACF002342B6 /* LLImageViewController.m */; };
-		A6C2D7D31F2ACACF002342B6 /* PresentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C2D7C31F2ACACF002342B6 /* PresentViewController.m */; };
 		A6C2D7D41F2ACACF002342B6 /* LLImagePicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A6C2D7C51F2ACACF002342B6 /* LLImagePicker.bundle */; };
+		A6C2D7D91F2ADCB6002342B6 /* UIImage+Phippy.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C2D7D81F2ADCB6002342B6 /* UIImage+Phippy.m */; };
+		A6C2D7DC1F2ADD5A002342B6 /* LLImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C2D7DA1F2ADD5A002342B6 /* LLImageViewController.m */; };
+		A6C2D7E51F2ADD81002342B6 /* PresentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C2D7DE1F2ADD81002342B6 /* PresentViewController.m */; };
+		A6C2D7E61F2ADD81002342B6 /* AddLLImagePickerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C2D7E01F2ADD81002342B6 /* AddLLImagePickerVC.m */; };
+		A6C2D7E71F2ADD81002342B6 /* DisplayLLImagePickerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C2D7E21F2ADD81002342B6 /* DisplayLLImagePickerVC.m */; };
+		A6C2D7E81F2ADD81002342B6 /* EditLLImagePickerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C2D7E41F2ADD81002342B6 /* EditLLImagePickerVC.m */; };
+		A6C2D7EC1F2B02BC002342B6 /* TBRuquest.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C2D7EB1F2B02BC002342B6 /* TBRuquest.m */; };
+		A6C2D7EF1F2B031B002342B6 /* PHIRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C2D7EE1F2B031B002342B6 /* PHIRequest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -91,12 +94,6 @@
 		A6C2D76F1F29DD5D002342B6 /* MerchantLogoReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MerchantLogoReusableView.h; sourceTree = "<group>"; };
 		A6C2D7701F29DD5D002342B6 /* MerchantLogoReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MerchantLogoReusableView.m; sourceTree = "<group>"; };
 		A6C2D7711F29DD5D002342B6 /* MerchantLogoReusableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MerchantLogoReusableView.xib; sourceTree = "<group>"; };
-		A6C2D7A51F2ACACF002342B6 /* AddLLImagePickerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddLLImagePickerVC.h; sourceTree = "<group>"; };
-		A6C2D7A61F2ACACF002342B6 /* AddLLImagePickerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddLLImagePickerVC.m; sourceTree = "<group>"; };
-		A6C2D7A71F2ACACF002342B6 /* DisplayLLImagePickerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayLLImagePickerVC.h; sourceTree = "<group>"; };
-		A6C2D7A81F2ACACF002342B6 /* DisplayLLImagePickerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisplayLLImagePickerVC.m; sourceTree = "<group>"; };
-		A6C2D7A91F2ACACF002342B6 /* EditLLImagePickerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditLLImagePickerVC.h; sourceTree = "<group>"; };
-		A6C2D7AA1F2ACACF002342B6 /* EditLLImagePickerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditLLImagePickerVC.m; sourceTree = "<group>"; };
 		A6C2D7AC1F2ACACF002342B6 /* NSString+LLMediaExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+LLMediaExt.h"; sourceTree = "<group>"; };
 		A6C2D7AD1F2ACACF002342B6 /* NSString+LLMediaExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+LLMediaExt.m"; sourceTree = "<group>"; };
 		A6C2D7AE1F2ACACF002342B6 /* UIImage+LLGif.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+LLGif.h"; sourceTree = "<group>"; };
@@ -116,13 +113,25 @@
 		A6C2D7BD1F2ACACF002342B6 /* LLImagePickerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLImagePickerModel.m; sourceTree = "<group>"; };
 		A6C2D7BE1F2ACACF002342B6 /* LLImagePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLImagePickerView.h; sourceTree = "<group>"; };
 		A6C2D7BF1F2ACACF002342B6 /* LLImagePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLImagePickerView.m; sourceTree = "<group>"; };
-		A6C2D7C01F2ACACF002342B6 /* LLImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLImageViewController.h; sourceTree = "<group>"; };
-		A6C2D7C11F2ACACF002342B6 /* LLImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLImageViewController.m; sourceTree = "<group>"; };
-		A6C2D7C21F2ACACF002342B6 /* PresentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresentViewController.h; sourceTree = "<group>"; };
-		A6C2D7C31F2ACACF002342B6 /* PresentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresentViewController.m; sourceTree = "<group>"; };
 		A6C2D7C51F2ACACF002342B6 /* LLImagePicker.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = LLImagePicker.bundle; sourceTree = "<group>"; };
 		A6C2D7D51F2AD42F002342B6 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
 		A6C2D7D61F2AD42F002342B6 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		A6C2D7D71F2ADCB6002342B6 /* UIImage+Phippy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Phippy.h"; sourceTree = "<group>"; };
+		A6C2D7D81F2ADCB6002342B6 /* UIImage+Phippy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Phippy.m"; sourceTree = "<group>"; };
+		A6C2D7DA1F2ADD5A002342B6 /* LLImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLImageViewController.m; sourceTree = "<group>"; };
+		A6C2D7DB1F2ADD5A002342B6 /* LLImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLImageViewController.h; sourceTree = "<group>"; };
+		A6C2D7DD1F2ADD81002342B6 /* PresentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresentViewController.h; sourceTree = "<group>"; };
+		A6C2D7DE1F2ADD81002342B6 /* PresentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresentViewController.m; sourceTree = "<group>"; };
+		A6C2D7DF1F2ADD81002342B6 /* AddLLImagePickerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddLLImagePickerVC.h; sourceTree = "<group>"; };
+		A6C2D7E01F2ADD81002342B6 /* AddLLImagePickerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddLLImagePickerVC.m; sourceTree = "<group>"; };
+		A6C2D7E11F2ADD81002342B6 /* DisplayLLImagePickerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayLLImagePickerVC.h; sourceTree = "<group>"; };
+		A6C2D7E21F2ADD81002342B6 /* DisplayLLImagePickerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisplayLLImagePickerVC.m; sourceTree = "<group>"; };
+		A6C2D7E31F2ADD81002342B6 /* EditLLImagePickerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditLLImagePickerVC.h; sourceTree = "<group>"; };
+		A6C2D7E41F2ADD81002342B6 /* EditLLImagePickerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditLLImagePickerVC.m; sourceTree = "<group>"; };
+		A6C2D7EA1F2B02BC002342B6 /* TBRuquest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBRuquest.h; sourceTree = "<group>"; };
+		A6C2D7EB1F2B02BC002342B6 /* TBRuquest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBRuquest.m; sourceTree = "<group>"; };
+		A6C2D7ED1F2B031B002342B6 /* PHIRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHIRequest.h; sourceTree = "<group>"; };
+		A6C2D7EE1F2B031B002342B6 /* PHIRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHIRequest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -207,6 +216,8 @@
 				A6B9DD031F27202400C2D327 /* BaseTabViewController.m */,
 				A6B9DD041F27202400C2D327 /* PhippyTabBarController.h */,
 				A6B9DD051F27202400C2D327 /* PhippyTabBarController.m */,
+				A6C2D7D71F2ADCB6002342B6 /* UIImage+Phippy.h */,
+				A6C2D7D81F2ADCB6002342B6 /* UIImage+Phippy.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -239,6 +250,7 @@
 		A6C2D75B1F29C697002342B6 /* venv */ = {
 			isa = PBXGroup;
 			children = (
+				A6C2D7E91F2B0258002342B6 /* Request */,
 				A6C2D7A41F2ACACF002342B6 /* 相机和相册 */,
 			);
 			path = venv;
@@ -255,6 +267,16 @@
 				A6C2D76C1F29DC55002342B6 /* FoodDetailCollectionViewCell.xib */,
 				A6C2D7671F29D155002342B6 /* ManageMenuViewController.h */,
 				A6C2D7681F29D155002342B6 /* ManageMenuViewController.m */,
+				A6C2D7DB1F2ADD5A002342B6 /* LLImageViewController.h */,
+				A6C2D7DA1F2ADD5A002342B6 /* LLImageViewController.m */,
+				A6C2D7DD1F2ADD81002342B6 /* PresentViewController.h */,
+				A6C2D7DE1F2ADD81002342B6 /* PresentViewController.m */,
+				A6C2D7DF1F2ADD81002342B6 /* AddLLImagePickerVC.h */,
+				A6C2D7E01F2ADD81002342B6 /* AddLLImagePickerVC.m */,
+				A6C2D7E11F2ADD81002342B6 /* DisplayLLImagePickerVC.h */,
+				A6C2D7E21F2ADD81002342B6 /* DisplayLLImagePickerVC.m */,
+				A6C2D7E31F2ADD81002342B6 /* EditLLImagePickerVC.h */,
+				A6C2D7E41F2ADD81002342B6 /* EditLLImagePickerVC.m */,
 			);
 			path = ManageMenu;
 			sourceTree = "<group>";
@@ -262,18 +284,8 @@
 		A6C2D7A41F2ACACF002342B6 /* 相机和相册 */ = {
 			isa = PBXGroup;
 			children = (
-				A6C2D7A51F2ACACF002342B6 /* AddLLImagePickerVC.h */,
-				A6C2D7A61F2ACACF002342B6 /* AddLLImagePickerVC.m */,
-				A6C2D7A71F2ACACF002342B6 /* DisplayLLImagePickerVC.h */,
-				A6C2D7A81F2ACACF002342B6 /* DisplayLLImagePickerVC.m */,
-				A6C2D7A91F2ACACF002342B6 /* EditLLImagePickerVC.h */,
-				A6C2D7AA1F2ACACF002342B6 /* EditLLImagePickerVC.m */,
 				A6C2D7AB1F2ACACF002342B6 /* Libraies */,
 				A6C2D7B61F2ACACF002342B6 /* LLImagePickerView */,
-				A6C2D7C01F2ACACF002342B6 /* LLImageViewController.h */,
-				A6C2D7C11F2ACACF002342B6 /* LLImageViewController.m */,
-				A6C2D7C21F2ACACF002342B6 /* PresentViewController.h */,
-				A6C2D7C31F2ACACF002342B6 /* PresentViewController.m */,
 				A6C2D7C41F2ACACF002342B6 /* resource */,
 			);
 			path = "相机和相册";
@@ -318,6 +330,17 @@
 				A6C2D7C51F2ACACF002342B6 /* LLImagePicker.bundle */,
 			);
 			path = resource;
+			sourceTree = "<group>";
+		};
+		A6C2D7E91F2B0258002342B6 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				A6C2D7ED1F2B031B002342B6 /* PHIRequest.h */,
+				A6C2D7EE1F2B031B002342B6 /* PHIRequest.m */,
+				A6C2D7EA1F2B02BC002342B6 /* TBRuquest.h */,
+				A6C2D7EB1F2B02BC002342B6 /* TBRuquest.m */,
+			);
+			path = Request;
 			sourceTree = "<group>";
 		};
 		BC1DFB7F3E91636CFD04FD12 /* Frameworks */ = {
@@ -462,25 +485,28 @@
 				A6C2D76D1F29DC55002342B6 /* FoodDetailCollectionViewCell.m in Sources */,
 				A6C2D7CB1F2ACACF002342B6 /* UIImageView+LLMediaExt.m in Sources */,
 				A6B9DD061F27202400C2D327 /* BaseNavigationController.m in Sources */,
-				A6C2D7D31F2ACACF002342B6 /* PresentViewController.m in Sources */,
+				A6C2D7E71F2ADD81002342B6 /* DisplayLLImagePickerVC.m in Sources */,
+				A6C2D7DC1F2ADD5A002342B6 /* LLImageViewController.m in Sources */,
+				A6C2D7E81F2ADD81002342B6 /* EditLLImagePickerVC.m in Sources */,
+				A6C2D7D91F2ADCB6002342B6 /* UIImage+Phippy.m in Sources */,
 				A6C2D7721F29DD5D002342B6 /* MerchantLogoReusableView.m in Sources */,
 				A6C2D7CF1F2ACACF002342B6 /* LLImagePickerManager.m in Sources */,
 				A6B9DD081F27202400C2D327 /* PhippyTabBarController.m in Sources */,
 				A6B9DCF01F271EAB00C2D327 /* ViewController.m in Sources */,
 				A6C2D7C91F2ACACF002342B6 /* NSString+LLMediaExt.m in Sources */,
 				A6C2D7D01F2ACACF002342B6 /* LLImagePickerModel.m in Sources */,
-				A6C2D7D21F2ACACF002342B6 /* LLImageViewController.m in Sources */,
 				A6C2D7641F29CA74002342B6 /* DemandTableViewCell.m in Sources */,
+				A6C2D7EF1F2B031B002342B6 /* PHIRequest.m in Sources */,
 				A6C2D7CD1F2ACACF002342B6 /* UIViewController+LLMediaExt.m in Sources */,
-				A6C2D7C71F2ACACF002342B6 /* DisplayLLImagePickerVC.m in Sources */,
-				A6C2D7C81F2ACACF002342B6 /* EditLLImagePickerVC.m in Sources */,
+				A6C2D7E51F2ADD81002342B6 /* PresentViewController.m in Sources */,
 				A6C2D7D11F2ACACF002342B6 /* LLImagePickerView.m in Sources */,
 				A6B9DCED1F271EAB00C2D327 /* AppDelegate.m in Sources */,
 				A6C2D7691F29D155002342B6 /* ManageMenuViewController.m in Sources */,
 				A6B9DD0D1F27209F00C2D327 /* PhippyViewController.m in Sources */,
-				A6C2D7C61F2ACACF002342B6 /* AddLLImagePickerVC.m in Sources */,
+				A6C2D7EC1F2B02BC002342B6 /* TBRuquest.m in Sources */,
 				A6C2D75F1F29CA38002342B6 /* ManageTableViewCell.m in Sources */,
 				A6B9DD161F27219100C2D327 /* PHIUserManager.m in Sources */,
+				A6C2D7E61F2ADD81002342B6 /* AddLLImagePickerVC.m in Sources */,
 				A6B9DCEA1F271EAB00C2D327 /* main.m in Sources */,
 				A6B9DD071F27202400C2D327 /* BaseTabViewController.m in Sources */,
 				A6B9DD101F2720D200C2D327 /* HomeViewController.m in Sources */,

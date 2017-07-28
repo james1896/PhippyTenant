@@ -10,6 +10,7 @@
 #import "ManageTableViewCell.h"
 #import "DemandTableViewCell.h"
 #import "ManageMenuViewController.h"
+#import "PHIRequest.h"
 
 //---------------------------------------------------------------------------------------
 //  HomeHeaderView
@@ -89,6 +90,24 @@
     
     if(indexPath.row == 1){
         NSLog(@"indexPath.row :%ld",indexPath.row);
+        
+//        [PHIRequest uploadImageWithImage:[UIImage imageNamed:@"back"]
+//                               ImageName:@"back"
+//                                 success:^(NSURLSessionDataTask *task, id responseObject) {
+//                                     NSLog(@"uploadImage:%@",responseObject);
+//                                }
+//                                 failure:^(NSURLSessionDataTask *task, NSError *error) {
+//                                     NSLog(@"uploadImage:%@",error);
+//                                 }];
+        
+        [PHIRequest uploadImageWithImages:@[[UIImage imageNamed:@"back"],[UIImage imageNamed:@"logo"]]
+                               ImageNames:@[@"bac",@"logo"]
+                                  success:^(NSURLSessionDataTask *task, id responseObject) {
+                                      NSLog(@"uploadImage:%@",responseObject);
+                                  }
+                                  failure:^(NSURLSessionDataTask *task, NSError *error) {
+                                      NSLog(@"error:%@",error);
+                                  }];
     }
     
 }
