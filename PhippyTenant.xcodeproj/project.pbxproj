@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B9E9A4F58D3A5D94AC29051 /* libPods-PhippyTenant.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EA73FB31C63CE3456245AA8 /* libPods-PhippyTenant.a */; };
 		A6B9DCEA1F271EAB00C2D327 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B9DCE91F271EAB00C2D327 /* main.m */; };
 		A6B9DCED1F271EAB00C2D327 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B9DCEC1F271EAB00C2D327 /* AppDelegate.m */; };
 		A6B9DCF01F271EAB00C2D327 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B9DCEF1F271EAB00C2D327 /* ViewController.m */; };
@@ -29,9 +30,27 @@
 		A6C2D76E1F29DC55002342B6 /* FoodDetailCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6C2D76C1F29DC55002342B6 /* FoodDetailCollectionViewCell.xib */; };
 		A6C2D7721F29DD5D002342B6 /* MerchantLogoReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C2D7701F29DD5D002342B6 /* MerchantLogoReusableView.m */; };
 		A6C2D7731F29DD5D002342B6 /* MerchantLogoReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6C2D7711F29DD5D002342B6 /* MerchantLogoReusableView.xib */; };
+		A6C2D7C61F2ACACF002342B6 /* AddLLImagePickerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C2D7A61F2ACACF002342B6 /* AddLLImagePickerVC.m */; };
+		A6C2D7C71F2ACACF002342B6 /* DisplayLLImagePickerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C2D7A81F2ACACF002342B6 /* DisplayLLImagePickerVC.m */; };
+		A6C2D7C81F2ACACF002342B6 /* EditLLImagePickerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C2D7AA1F2ACACF002342B6 /* EditLLImagePickerVC.m */; };
+		A6C2D7C91F2ACACF002342B6 /* NSString+LLMediaExt.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C2D7AD1F2ACACF002342B6 /* NSString+LLMediaExt.m */; };
+		A6C2D7CA1F2ACACF002342B6 /* UIImage+LLGif.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C2D7AF1F2ACACF002342B6 /* UIImage+LLGif.m */; };
+		A6C2D7CB1F2ACACF002342B6 /* UIImageView+LLMediaExt.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C2D7B11F2ACACF002342B6 /* UIImageView+LLMediaExt.m */; };
+		A6C2D7CC1F2ACACF002342B6 /* UIView+LLMediaExt.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C2D7B31F2ACACF002342B6 /* UIView+LLMediaExt.m */; };
+		A6C2D7CD1F2ACACF002342B6 /* UIViewController+LLMediaExt.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C2D7B51F2ACACF002342B6 /* UIViewController+LLMediaExt.m */; };
+		A6C2D7CE1F2ACACF002342B6 /* LLImagePickerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C2D7B81F2ACACF002342B6 /* LLImagePickerCell.m */; };
+		A6C2D7CF1F2ACACF002342B6 /* LLImagePickerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C2D7BB1F2ACACF002342B6 /* LLImagePickerManager.m */; };
+		A6C2D7D01F2ACACF002342B6 /* LLImagePickerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C2D7BD1F2ACACF002342B6 /* LLImagePickerModel.m */; };
+		A6C2D7D11F2ACACF002342B6 /* LLImagePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C2D7BF1F2ACACF002342B6 /* LLImagePickerView.m */; };
+		A6C2D7D21F2ACACF002342B6 /* LLImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C2D7C11F2ACACF002342B6 /* LLImageViewController.m */; };
+		A6C2D7D31F2ACACF002342B6 /* PresentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C2D7C31F2ACACF002342B6 /* PresentViewController.m */; };
+		A6C2D7D41F2ACACF002342B6 /* LLImagePicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A6C2D7C51F2ACACF002342B6 /* LLImagePicker.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		43982873089396DE3A2938A7 /* Pods-PhippyTenant.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhippyTenant.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PhippyTenant/Pods-PhippyTenant.debug.xcconfig"; sourceTree = "<group>"; };
+		4FF34938DE8B0AA05160F626 /* Pods-PhippyTenant.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhippyTenant.release.xcconfig"; path = "Pods/Target Support Files/Pods-PhippyTenant/Pods-PhippyTenant.release.xcconfig"; sourceTree = "<group>"; };
+		9EA73FB31C63CE3456245AA8 /* libPods-PhippyTenant.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PhippyTenant.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6B9DCE51F271EAA00C2D327 /* PhippyTenant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhippyTenant.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6B9DCE91F271EAB00C2D327 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A6B9DCEB1F271EAB00C2D327 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -72,6 +91,36 @@
 		A6C2D76F1F29DD5D002342B6 /* MerchantLogoReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MerchantLogoReusableView.h; sourceTree = "<group>"; };
 		A6C2D7701F29DD5D002342B6 /* MerchantLogoReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MerchantLogoReusableView.m; sourceTree = "<group>"; };
 		A6C2D7711F29DD5D002342B6 /* MerchantLogoReusableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MerchantLogoReusableView.xib; sourceTree = "<group>"; };
+		A6C2D7A51F2ACACF002342B6 /* AddLLImagePickerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddLLImagePickerVC.h; sourceTree = "<group>"; };
+		A6C2D7A61F2ACACF002342B6 /* AddLLImagePickerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddLLImagePickerVC.m; sourceTree = "<group>"; };
+		A6C2D7A71F2ACACF002342B6 /* DisplayLLImagePickerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayLLImagePickerVC.h; sourceTree = "<group>"; };
+		A6C2D7A81F2ACACF002342B6 /* DisplayLLImagePickerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisplayLLImagePickerVC.m; sourceTree = "<group>"; };
+		A6C2D7A91F2ACACF002342B6 /* EditLLImagePickerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditLLImagePickerVC.h; sourceTree = "<group>"; };
+		A6C2D7AA1F2ACACF002342B6 /* EditLLImagePickerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditLLImagePickerVC.m; sourceTree = "<group>"; };
+		A6C2D7AC1F2ACACF002342B6 /* NSString+LLMediaExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+LLMediaExt.h"; sourceTree = "<group>"; };
+		A6C2D7AD1F2ACACF002342B6 /* NSString+LLMediaExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+LLMediaExt.m"; sourceTree = "<group>"; };
+		A6C2D7AE1F2ACACF002342B6 /* UIImage+LLGif.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+LLGif.h"; sourceTree = "<group>"; };
+		A6C2D7AF1F2ACACF002342B6 /* UIImage+LLGif.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+LLGif.m"; sourceTree = "<group>"; };
+		A6C2D7B01F2ACACF002342B6 /* UIImageView+LLMediaExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+LLMediaExt.h"; sourceTree = "<group>"; };
+		A6C2D7B11F2ACACF002342B6 /* UIImageView+LLMediaExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+LLMediaExt.m"; sourceTree = "<group>"; };
+		A6C2D7B21F2ACACF002342B6 /* UIView+LLMediaExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LLMediaExt.h"; sourceTree = "<group>"; };
+		A6C2D7B31F2ACACF002342B6 /* UIView+LLMediaExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LLMediaExt.m"; sourceTree = "<group>"; };
+		A6C2D7B41F2ACACF002342B6 /* UIViewController+LLMediaExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+LLMediaExt.h"; sourceTree = "<group>"; };
+		A6C2D7B51F2ACACF002342B6 /* UIViewController+LLMediaExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+LLMediaExt.m"; sourceTree = "<group>"; };
+		A6C2D7B71F2ACACF002342B6 /* LLImagePickerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLImagePickerCell.h; sourceTree = "<group>"; };
+		A6C2D7B81F2ACACF002342B6 /* LLImagePickerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLImagePickerCell.m; sourceTree = "<group>"; };
+		A6C2D7B91F2ACACF002342B6 /* LLImagePickerConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLImagePickerConst.h; sourceTree = "<group>"; };
+		A6C2D7BA1F2ACACF002342B6 /* LLImagePickerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLImagePickerManager.h; sourceTree = "<group>"; };
+		A6C2D7BB1F2ACACF002342B6 /* LLImagePickerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLImagePickerManager.m; sourceTree = "<group>"; };
+		A6C2D7BC1F2ACACF002342B6 /* LLImagePickerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLImagePickerModel.h; sourceTree = "<group>"; };
+		A6C2D7BD1F2ACACF002342B6 /* LLImagePickerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLImagePickerModel.m; sourceTree = "<group>"; };
+		A6C2D7BE1F2ACACF002342B6 /* LLImagePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLImagePickerView.h; sourceTree = "<group>"; };
+		A6C2D7BF1F2ACACF002342B6 /* LLImagePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLImagePickerView.m; sourceTree = "<group>"; };
+		A6C2D7C01F2ACACF002342B6 /* LLImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLImageViewController.h; sourceTree = "<group>"; };
+		A6C2D7C11F2ACACF002342B6 /* LLImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLImageViewController.m; sourceTree = "<group>"; };
+		A6C2D7C21F2ACACF002342B6 /* PresentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresentViewController.h; sourceTree = "<group>"; };
+		A6C2D7C31F2ACACF002342B6 /* PresentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresentViewController.m; sourceTree = "<group>"; };
+		A6C2D7C51F2ACACF002342B6 /* LLImagePicker.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = LLImagePicker.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,17 +128,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B9E9A4F58D3A5D94AC29051 /* libPods-PhippyTenant.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		08521D62055ABD5213C99812 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				43982873089396DE3A2938A7 /* Pods-PhippyTenant.debug.xcconfig */,
+				4FF34938DE8B0AA05160F626 /* Pods-PhippyTenant.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A6B9DCDC1F271EAA00C2D327 = {
 			isa = PBXGroup;
 			children = (
 				A6B9DCE71F271EAA00C2D327 /* PhippyTenant */,
 				A6B9DCE61F271EAA00C2D327 /* Products */,
+				08521D62055ABD5213C99812 /* Pods */,
+				BC1DFB7F3E91636CFD04FD12 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -176,6 +237,7 @@
 		A6C2D75B1F29C697002342B6 /* venv */ = {
 			isa = PBXGroup;
 			children = (
+				A6C2D7A41F2ACACF002342B6 /* 相机和相册 */,
 			);
 			path = venv;
 			sourceTree = "<group>";
@@ -195,6 +257,75 @@
 			path = ManageMenu;
 			sourceTree = "<group>";
 		};
+		A6C2D7A41F2ACACF002342B6 /* 相机和相册 */ = {
+			isa = PBXGroup;
+			children = (
+				A6C2D7A51F2ACACF002342B6 /* AddLLImagePickerVC.h */,
+				A6C2D7A61F2ACACF002342B6 /* AddLLImagePickerVC.m */,
+				A6C2D7A71F2ACACF002342B6 /* DisplayLLImagePickerVC.h */,
+				A6C2D7A81F2ACACF002342B6 /* DisplayLLImagePickerVC.m */,
+				A6C2D7A91F2ACACF002342B6 /* EditLLImagePickerVC.h */,
+				A6C2D7AA1F2ACACF002342B6 /* EditLLImagePickerVC.m */,
+				A6C2D7AB1F2ACACF002342B6 /* Libraies */,
+				A6C2D7B61F2ACACF002342B6 /* LLImagePickerView */,
+				A6C2D7C01F2ACACF002342B6 /* LLImageViewController.h */,
+				A6C2D7C11F2ACACF002342B6 /* LLImageViewController.m */,
+				A6C2D7C21F2ACACF002342B6 /* PresentViewController.h */,
+				A6C2D7C31F2ACACF002342B6 /* PresentViewController.m */,
+				A6C2D7C41F2ACACF002342B6 /* resource */,
+			);
+			path = "相机和相册";
+			sourceTree = "<group>";
+		};
+		A6C2D7AB1F2ACACF002342B6 /* Libraies */ = {
+			isa = PBXGroup;
+			children = (
+				A6C2D7AC1F2ACACF002342B6 /* NSString+LLMediaExt.h */,
+				A6C2D7AD1F2ACACF002342B6 /* NSString+LLMediaExt.m */,
+				A6C2D7AE1F2ACACF002342B6 /* UIImage+LLGif.h */,
+				A6C2D7AF1F2ACACF002342B6 /* UIImage+LLGif.m */,
+				A6C2D7B01F2ACACF002342B6 /* UIImageView+LLMediaExt.h */,
+				A6C2D7B11F2ACACF002342B6 /* UIImageView+LLMediaExt.m */,
+				A6C2D7B21F2ACACF002342B6 /* UIView+LLMediaExt.h */,
+				A6C2D7B31F2ACACF002342B6 /* UIView+LLMediaExt.m */,
+				A6C2D7B41F2ACACF002342B6 /* UIViewController+LLMediaExt.h */,
+				A6C2D7B51F2ACACF002342B6 /* UIViewController+LLMediaExt.m */,
+			);
+			path = Libraies;
+			sourceTree = "<group>";
+		};
+		A6C2D7B61F2ACACF002342B6 /* LLImagePickerView */ = {
+			isa = PBXGroup;
+			children = (
+				A6C2D7B71F2ACACF002342B6 /* LLImagePickerCell.h */,
+				A6C2D7B81F2ACACF002342B6 /* LLImagePickerCell.m */,
+				A6C2D7B91F2ACACF002342B6 /* LLImagePickerConst.h */,
+				A6C2D7BA1F2ACACF002342B6 /* LLImagePickerManager.h */,
+				A6C2D7BB1F2ACACF002342B6 /* LLImagePickerManager.m */,
+				A6C2D7BC1F2ACACF002342B6 /* LLImagePickerModel.h */,
+				A6C2D7BD1F2ACACF002342B6 /* LLImagePickerModel.m */,
+				A6C2D7BE1F2ACACF002342B6 /* LLImagePickerView.h */,
+				A6C2D7BF1F2ACACF002342B6 /* LLImagePickerView.m */,
+			);
+			path = LLImagePickerView;
+			sourceTree = "<group>";
+		};
+		A6C2D7C41F2ACACF002342B6 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				A6C2D7C51F2ACACF002342B6 /* LLImagePicker.bundle */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+		BC1DFB7F3E91636CFD04FD12 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9EA73FB31C63CE3456245AA8 /* libPods-PhippyTenant.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -202,9 +333,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A6B9DCFC1F271EAC00C2D327 /* Build configuration list for PBXNativeTarget "PhippyTenant" */;
 			buildPhases = (
+				B5F7FAF615961FA857E29442 /* [CP] Check Pods Manifest.lock */,
 				A6B9DCE11F271EAA00C2D327 /* Sources */,
 				A6B9DCE21F271EAA00C2D327 /* Frameworks */,
 				A6B9DCE31F271EAA00C2D327 /* Resources */,
+				846839E74FA5BE254041FD2E /* [CP] Embed Pods Frameworks */,
+				28CD7900C8A2BC0989DC498A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -258,6 +392,7 @@
 				A6B9DCF81F271EAC00C2D327 /* LaunchScreen.storyboard in Resources */,
 				A6C2D7651F29CA74002342B6 /* DemandTableViewCell.xib in Resources */,
 				A6B9DCF51F271EAC00C2D327 /* Assets.xcassets in Resources */,
+				A6C2D7D41F2ACACF002342B6 /* LLImagePicker.bundle in Resources */,
 				A6C2D76E1F29DC55002342B6 /* FoodDetailCollectionViewCell.xib in Resources */,
 				A6B9DCF31F271EAB00C2D327 /* Main.storyboard in Resources */,
 			);
@@ -265,26 +400,88 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		28CD7900C8A2BC0989DC498A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhippyTenant/Pods-PhippyTenant-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		846839E74FA5BE254041FD2E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhippyTenant/Pods-PhippyTenant-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5F7FAF615961FA857E29442 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A6B9DCE11F271EAA00C2D327 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6C2D7CA1F2ACACF002342B6 /* UIImage+LLGif.m in Sources */,
+				A6C2D7CC1F2ACACF002342B6 /* UIView+LLMediaExt.m in Sources */,
 				A6B9DD131F2720DE00C2D327 /* MeViewController.m in Sources */,
 				A6C2D76D1F29DC55002342B6 /* FoodDetailCollectionViewCell.m in Sources */,
+				A6C2D7CB1F2ACACF002342B6 /* UIImageView+LLMediaExt.m in Sources */,
 				A6B9DD061F27202400C2D327 /* BaseNavigationController.m in Sources */,
+				A6C2D7D31F2ACACF002342B6 /* PresentViewController.m in Sources */,
 				A6C2D7721F29DD5D002342B6 /* MerchantLogoReusableView.m in Sources */,
+				A6C2D7CF1F2ACACF002342B6 /* LLImagePickerManager.m in Sources */,
 				A6B9DD081F27202400C2D327 /* PhippyTabBarController.m in Sources */,
 				A6B9DCF01F271EAB00C2D327 /* ViewController.m in Sources */,
+				A6C2D7C91F2ACACF002342B6 /* NSString+LLMediaExt.m in Sources */,
+				A6C2D7D01F2ACACF002342B6 /* LLImagePickerModel.m in Sources */,
+				A6C2D7D21F2ACACF002342B6 /* LLImageViewController.m in Sources */,
 				A6C2D7641F29CA74002342B6 /* DemandTableViewCell.m in Sources */,
+				A6C2D7CD1F2ACACF002342B6 /* UIViewController+LLMediaExt.m in Sources */,
+				A6C2D7C71F2ACACF002342B6 /* DisplayLLImagePickerVC.m in Sources */,
+				A6C2D7C81F2ACACF002342B6 /* EditLLImagePickerVC.m in Sources */,
+				A6C2D7D11F2ACACF002342B6 /* LLImagePickerView.m in Sources */,
 				A6B9DCED1F271EAB00C2D327 /* AppDelegate.m in Sources */,
 				A6C2D7691F29D155002342B6 /* ManageMenuViewController.m in Sources */,
 				A6B9DD0D1F27209F00C2D327 /* PhippyViewController.m in Sources */,
+				A6C2D7C61F2ACACF002342B6 /* AddLLImagePickerVC.m in Sources */,
 				A6C2D75F1F29CA38002342B6 /* ManageTableViewCell.m in Sources */,
 				A6B9DD161F27219100C2D327 /* PHIUserManager.m in Sources */,
 				A6B9DCEA1F271EAB00C2D327 /* main.m in Sources */,
 				A6B9DD071F27202400C2D327 /* BaseTabViewController.m in Sources */,
 				A6B9DD101F2720D200C2D327 /* HomeViewController.m in Sources */,
+				A6C2D7CE1F2ACACF002342B6 /* LLImagePickerCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,6 +599,7 @@
 		};
 		A6B9DCFD1F271EAC00C2D327 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43982873089396DE3A2938A7 /* Pods-PhippyTenant.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/PhippyTenant/PrefixHeader.pch";
@@ -414,6 +612,7 @@
 		};
 		A6B9DCFE1F271EAC00C2D327 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FF34938DE8B0AA05160F626 /* Pods-PhippyTenant.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/PhippyTenant/PrefixHeader.pch";
