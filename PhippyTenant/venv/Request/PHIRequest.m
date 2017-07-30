@@ -40,14 +40,15 @@
 }
 
 + (void)uploadImageWithImage:(UIImage *)image
-                   ImageName:(NSString *)name
-                     success:(success)success
-                     failure:(failure)failure{
+                   imageName:(NSString *)name
+                     storeId:(NSString *)storeId
+                     success:(success)success failure:(failure)failure{
     //拼接url
     NSString *url = [NSString stringWithFormat:@"%@/img",TB_BASE_URL];
     
-    [self uploadImageWithURL:url Image:image ImageName:name success:success failure:failure];
-    
+//    [self uploadImageWithURL:url Image:image ImageName:name success:success failure:failure];
+
+    [self uploadImageWithURL:url image:image parameters:@{@"store_id":storeId} imageName:name success:success failure:failure];
 }
 
 + (void)uploadImageWithImages:(NSArray<UIImage *> *)images ImageNames:(NSArray<NSString *> *)names success:(success)success failure:(failure)failure{

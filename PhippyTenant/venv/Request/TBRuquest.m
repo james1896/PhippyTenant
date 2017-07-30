@@ -109,6 +109,7 @@
     AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
     manager.requestSerializer.timeoutInterval = 20;
    manager.responseSerializer.acceptableContentTypes = [NSSet setWithObjects:@"image/png",nil];
+    
     manager.requestSerializer= [AFHTTPRequestSerializer serializer];
     manager.responseSerializer= [AFHTTPResponseSerializer serializer];
     // 在parameters里存放照片以外的对象
@@ -144,31 +145,30 @@
         
     } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
         
-        NSLog(@"```上传成功``` %@",responseObject);
+//        NSLog(@"```上传成功``` %@",responseObject);
+        success(task,responseObject);
         
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
         
-        NSLog(@"xxx上传失败xxx %@", error);
-        
+//        NSLog(@"xxx上传失败xxx %@", error);
+        failure(task,error);
     }];
 
 }
 
 
-
-
 + (void)uploadImageWithURL:(NSString *)url
-                     Image:(UIImage *)image
-                 ImageName:(NSString *)name
-                   success:(success)success
-                   failure:(failure)failure{
+                     image:(UIImage *)image
+                parameters:(NSDictionary *)parameters
+                 imageName:(NSString *)name success:(success)success failure:(failure)failure{
     
     AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
     manager.responseSerializer.acceptableContentTypes = [NSSet setWithObjects:@"image/png",nil];
     
     manager.requestSerializer= [AFHTTPRequestSerializer serializer];
-    manager.responseSerializer= [AFHTTPResponseSerializer serializer];
-    [manager POST:url parameters:nil constructingBodyWithBlock:^(id<AFMultipartFormData>  _Nonnull formData) {
+//    manager.responseSerializer= [AFHTTPResponseSerializer serializer];
+    manager.responseSerializer.acceptableContentTypes = [NSSet setWithObject:@"application/json"];
+    [manager POST:url parameters:([parameters isKindOfClass:[NSDictionary class]]?parameters:nil) constructingBodyWithBlock:^(id<AFMultipartFormData>  _Nonnull formData) {
         
         NSData *data = UIImagePNGRepresentation(image);
         
@@ -181,8 +181,10 @@
     } progress:^(NSProgress * _Nonnull uploadProgress) {
         
     } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
+        NSLog(@"\n输入URL:%@\n输入参数:%@\n输出参数(请求成功):%@",url,parameters,responseObject);
         success(task,responseObject);
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
+         NSLog(@"\n输入URL:%@\n输入参数:%@\n输出参数(请求失败):%@",url,parameters,error);
         failure(task,error);
     }];
     
@@ -226,12 +228,16 @@
     //
     //
     //    } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
-    //        
+    //
     //        NSLog(@"上传失败%@",error);
-    //        
-    //        
-    //        
+    //
+    //
+    //
     //    }];
+
+    
+
 }
+
 
 @end

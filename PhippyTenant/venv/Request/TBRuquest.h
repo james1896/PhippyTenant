@@ -83,8 +83,9 @@ typedef void(^failure)(NSURLSessionDataTask *task, NSError *error);
 
 
 + (void)uploadImageWithURL:(NSString *)url
-                     Image:(UIImage *)image
-                 ImageName:(NSString *)name
+                     image:(UIImage *)image
+                parameters:(NSDictionary *)parameters
+                 imageName:(NSString *)name
                    success:(success)success
                    failure:(failure)failure;
 

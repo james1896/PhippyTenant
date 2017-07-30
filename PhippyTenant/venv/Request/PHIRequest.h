@@ -28,7 +28,8 @@
  @param failure <#failure description#>
  */
 + (void)uploadImageWithImage:(UIImage *)image
-                   ImageName:(NSString *)name
+                   imageName:(NSString *)name
+                     storeId:(NSString *)storeId
                      success:(success)success
                      failure:(failure)failure;
 
