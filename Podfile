@@ -6,8 +6,8 @@ pod 'AFNetworking', '~> 3.1.0'
 pod 'IQKeyboardManager'
 
 
-
 ####仿微信发朋友圈的 打开相机和相册功能需要的三方###
+
 pod 'TZImagePickerController'
 pod 'MWPhotoBrowser'
 pod 'ACAlertController'
