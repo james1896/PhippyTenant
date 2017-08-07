@@ -4,7 +4,7 @@
 target 'PhippyTenant' do
 pod 'AFNetworking', '~> 3.1.0'
 pod 'IQKeyboardManager'
-
+pod 'SDWebImage'
 
 ####仿微信发朋友圈的 打开相机和相册功能需要的三方###
 
