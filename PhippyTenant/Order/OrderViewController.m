@@ -16,7 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    [self.phippyNavigationController standardNavigationBarView];
 }
 
 - (void)didReceiveMemoryWarning {

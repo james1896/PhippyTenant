@@ -84,7 +84,7 @@
         <!--订单-->
         <scene sceneID="3t8-CR-aZj">
             <objects>
-                <navigationController id="SjN-9B-NzW" sceneMemberID="viewController">
+                <navigationController id="SjN-9B-NzW" customClass="BaseNavigationController" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="订单" image="order_normal" selectedImage="order_press" id="5E5-ZN-vhl"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="lpO-uD-Rhd">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -98,10 +98,10 @@
             </objects>
             <point key="canvasLocation" x="742" y="439"/>
         </scene>
-        <!--View Controller-->
+        <!--Order View Controller-->
         <scene sceneID="lV9-yV-tSn">
             <objects>
-                <viewController id="JKL-rk-ylF" sceneMemberID="viewController">
+                <viewController id="JKL-rk-ylF" customClass="OrderViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="0ET-Pv-ZY0"/>
                         <viewControllerLayoutGuide type="bottom" id="UIV-Yg-jqS"/>
