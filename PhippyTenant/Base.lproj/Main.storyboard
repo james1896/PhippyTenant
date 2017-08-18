@@ -20,6 +20,7 @@
                     </tabBar>
                     <connections>
                         <segue destination="EzO-mI-dC4" kind="relationship" relationship="viewControllers" id="nCM-9Y-WFc"/>
+                        <segue destination="SjN-9B-NzW" kind="relationship" relationship="viewControllers" id="pT6-aR-bpJ"/>
                         <segue destination="MbZ-ZC-c4y" kind="relationship" relationship="viewControllers" id="12N-J8-XUS"/>
                     </connections>
                 </tabBarController>
@@ -31,7 +32,7 @@
         <scene sceneID="dGF-fR-PCp">
             <objects>
                 <navigationController id="MbZ-ZC-c4y" customClass="BaseNavigationController" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="我的" id="1Nx-u5-pva"/>
+                    <tabBarItem key="tabBarItem" title="我的" image="me_normal" selectedImage="me_press" id="1Nx-u5-pva"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="2eZ-Z8-f3t">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -42,13 +43,13 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="js9-ar-Kgp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="730" y="406"/>
+            <point key="canvasLocation" x="743" y="1326"/>
         </scene>
         <!--首页-->
         <scene sceneID="xjv-ho-DpP">
             <objects>
                 <navigationController id="EzO-mI-dC4" customClass="BaseNavigationController" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="首页" id="eic-Jf-Fsq"/>
+                    <tabBarItem key="tabBarItem" title="首页" image="home_normal" selectedImage="home_press" id="eic-Jf-Fsq"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="0jU-VR-6fb">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -80,6 +81,42 @@
             </objects>
             <point key="canvasLocation" x="1676" y="-350"/>
         </scene>
+        <!--订单-->
+        <scene sceneID="3t8-CR-aZj">
+            <objects>
+                <navigationController id="SjN-9B-NzW" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="订单" image="order_normal" selectedImage="order_press" id="5E5-ZN-vhl"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="lpO-uD-Rhd">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="JKL-rk-ylF" kind="relationship" relationship="rootViewController" id="9j0-u1-mdn"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kQU-lh-JRb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="742" y="439"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="lV9-yV-tSn">
+            <objects>
+                <viewController id="JKL-rk-ylF" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="0ET-Pv-ZY0"/>
+                        <viewControllerLayoutGuide type="bottom" id="UIV-Yg-jqS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="g4L-iE-oXd">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="H1r-pz-69Y"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wsR-tm-0Vj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1739" y="436"/>
+        </scene>
         <!--Me View Controller-->
         <scene sceneID="dqK-AQ-3Gq">
             <objects>
@@ -97,7 +134,15 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ci0-ed-hZk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1676" y="427"/>
+            <point key="canvasLocation" x="1807" y="1326"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="home_normal" width="24" height="24"/>
+        <image name="home_press" width="24" height="24"/>
+        <image name="me_normal" width="24" height="24"/>
+        <image name="me_press" width="24" height="24"/>
+        <image name="order_normal" width="24" height="24"/>
+        <image name="order_press" width="24" height="24"/>
+    </resources>
 </document>

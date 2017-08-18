@@ -97,11 +97,11 @@
     
     
     // 创建带标题的图片轮播器
-    SDCycleScrollView *cycleScrollView2 = [SDCycleScrollView cycleScrollViewWithFrame:CGRectMake(0, 280, w, 180) imageURLsGroup:imagesURL];
+    SDCycleScrollView *cycleScrollView2 = [SDCycleScrollView cycleScrollViewWithFrame:CGRectMake(0, 280, w, 200) imageURLsGroup:imagesURL];
     cycleScrollView2.pageControlAliment = SDCycleScrollViewPageContolAlimentRight;
     cycleScrollView2.delegate = self;
     cycleScrollView2.titlesGroup = titles;
-//    [self.view addSubview:cycleScrollView2];
+
     cycleScrollView2.autoScrollTimeInterval = 3.0;
     self.tableView.tableHeaderView = cycleScrollView2;
 }

@@ -55,6 +55,7 @@
 		A6C2D7E81F2ADD81002342B6 /* EditLLImagePickerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C2D7E41F2ADD81002342B6 /* EditLLImagePickerVC.m */; };
 		A6C2D7EC1F2B02BC002342B6 /* TBRuquest.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C2D7EB1F2B02BC002342B6 /* TBRuquest.m */; };
 		A6C2D7EF1F2B031B002342B6 /* PHIRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C2D7EE1F2B031B002342B6 /* PHIRequest.m */; };
+		A6F6509E1F46805000D04243 /* OrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F6509D1F46805000D04243 /* OrderViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -153,6 +154,8 @@
 		A6C2D7EB1F2B02BC002342B6 /* TBRuquest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBRuquest.m; sourceTree = "<group>"; };
 		A6C2D7ED1F2B031B002342B6 /* PHIRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHIRequest.h; sourceTree = "<group>"; };
 		A6C2D7EE1F2B031B002342B6 /* PHIRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHIRequest.m; sourceTree = "<group>"; };
+		A6F6509C1F46805000D04243 /* OrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderViewController.h; sourceTree = "<group>"; };
+		A6F6509D1F46805000D04243 /* OrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -200,6 +203,7 @@
 				A6B9DD181F27223300C2D327 /* MacroDefinition.h */,
 				A6B9DCFF1F27202400C2D327 /* Base */,
 				A6B9DD091F27206400C2D327 /* Home */,
+				A6F6509B1F46801200D04243 /* Order */,
 				A6B9DD0A1F27206400C2D327 /* Me */,
 				A6C2D75B1F29C697002342B6 /* venv */,
 				A6B9DCEB1F271EAB00C2D327 /* AppDelegate.h */,
@@ -394,6 +398,15 @@
 			path = Request;
 			sourceTree = "<group>";
 		};
+		A6F6509B1F46801200D04243 /* Order */ = {
+			isa = PBXGroup;
+			children = (
+				A6F6509C1F46805000D04243 /* OrderViewController.h */,
+				A6F6509D1F46805000D04243 /* OrderViewController.m */,
+			);
+			path = Order;
+			sourceTree = "<group>";
+		};
 		BC1DFB7F3E91636CFD04FD12 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -486,7 +499,7 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-PhippyTenant/Pods-PhippyTenant-resources.sh",
 				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
-				"$PODS_CONFIGURATION_BUILD_DIR/MWPhotoBrowser/MWPhotoBrowser.bundle",
+				$PODS_CONFIGURATION_BUILD_DIR/MWPhotoBrowser/MWPhotoBrowser.bundle,
 				"${PODS_ROOT}/TZImagePickerController/TZImagePickerController/TZImagePickerController/TZImagePickerController.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -549,6 +562,7 @@
 				A6C2D7E71F2ADD81002342B6 /* DisplayLLImagePickerVC.m in Sources */,
 				A6C2D7DC1F2ADD5A002342B6 /* LLImageViewController.m in Sources */,
 				A6BBAA3F1F37FE0600419C9E /* SDCollectionViewCell.m in Sources */,
+				A6F6509E1F46805000D04243 /* OrderViewController.m in Sources */,
 				A6BBAA3C1F37FE0600419C9E /* TAAnimatedDotView.m in Sources */,
 				A6C2D7E81F2ADD81002342B6 /* EditLLImagePickerVC.m in Sources */,
 				A6BBAA3E1F37FE0600419C9E /* TAPageControl.m in Sources */,
