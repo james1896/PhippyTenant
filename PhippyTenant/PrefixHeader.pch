@@ -15,4 +15,5 @@
 
 #import "PHIUserManager.h"
 #import "MacroDefinition.h"
+#import "UIView+Attribute.h"
 #endif /* PrefixHeader_pch */

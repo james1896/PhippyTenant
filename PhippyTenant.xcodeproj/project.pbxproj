@@ -57,6 +57,9 @@
 		A6C2D7EF1F2B031B002342B6 /* PHIRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C2D7EE1F2B031B002342B6 /* PHIRequest.m */; };
 		A6F6509E1F46805000D04243 /* OrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F6509D1F46805000D04243 /* OrderViewController.m */; };
 		A6F650A11F46844C00D04243 /* ShopActivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F650A01F46844C00D04243 /* ShopActivityViewController.m */; };
+		A6F6510E1F482A6F00D04243 /* UIView+Attribute.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F6510D1F482A6F00D04243 /* UIView+Attribute.m */; };
+		A6F651121F4839C700D04243 /* OrderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F651101F4839C700D04243 /* OrderTableViewCell.m */; };
+		A6F651131F4839C700D04243 /* OrderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6F651111F4839C700D04243 /* OrderTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -159,6 +162,11 @@
 		A6F6509D1F46805000D04243 /* OrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderViewController.m; sourceTree = "<group>"; };
 		A6F6509F1F46844C00D04243 /* ShopActivityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopActivityViewController.h; sourceTree = "<group>"; };
 		A6F650A01F46844C00D04243 /* ShopActivityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopActivityViewController.m; sourceTree = "<group>"; };
+		A6F6510C1F482A6F00D04243 /* UIView+Attribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Attribute.h"; sourceTree = "<group>"; };
+		A6F6510D1F482A6F00D04243 /* UIView+Attribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Attribute.m"; sourceTree = "<group>"; };
+		A6F6510F1F4839C700D04243 /* OrderTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderTableViewCell.h; sourceTree = "<group>"; };
+		A6F651101F4839C700D04243 /* OrderTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderTableViewCell.m; sourceTree = "<group>"; };
+		A6F651111F4839C700D04243 /* OrderTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OrderTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -309,6 +317,8 @@
 		A6C2D75B1F29C697002342B6 /* venv */ = {
 			isa = PBXGroup;
 			children = (
+				A6F6510C1F482A6F00D04243 /* UIView+Attribute.h */,
+				A6F6510D1F482A6F00D04243 /* UIView+Attribute.m */,
 				A6BBAA281F37FE0600419C9E /* SDCycleScrollView */,
 				A6C2D7E91F2B0258002342B6 /* Request */,
 				A6C2D7A41F2ACACF002342B6 /* 相机和相册 */,
@@ -408,6 +418,9 @@
 			children = (
 				A6F6509C1F46805000D04243 /* OrderViewController.h */,
 				A6F6509D1F46805000D04243 /* OrderViewController.m */,
+				A6F6510F1F4839C700D04243 /* OrderTableViewCell.h */,
+				A6F651101F4839C700D04243 /* OrderTableViewCell.m */,
+				A6F651111F4839C700D04243 /* OrderTableViewCell.xib */,
 			);
 			path = Order;
 			sourceTree = "<group>";
@@ -485,6 +498,7 @@
 				A6C2D7601F29CA38002342B6 /* ManageTableViewCell.xib in Resources */,
 				A6C2D7731F29DD5D002342B6 /* MerchantLogoReusableView.xib in Resources */,
 				A6B9DCF81F271EAC00C2D327 /* LaunchScreen.storyboard in Resources */,
+				A6F651131F4839C700D04243 /* OrderTableViewCell.xib in Resources */,
 				A6C2D7651F29CA74002342B6 /* DemandTableViewCell.xib in Resources */,
 				A6B9DCF51F271EAC00C2D327 /* Assets.xcassets in Resources */,
 				A6C2D7D41F2ACACF002342B6 /* LLImagePicker.bundle in Resources */,
@@ -557,6 +571,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6C2D7CA1F2ACACF002342B6 /* UIImage+LLGif.m in Sources */,
+				A6F651121F4839C700D04243 /* OrderTableViewCell.m in Sources */,
 				A6BBAA3D1F37FE0600419C9E /* TADotView.m in Sources */,
 				A6C2D7CC1F2ACACF002342B6 /* UIView+LLMediaExt.m in Sources */,
 				A6B9DD131F2720DE00C2D327 /* MeViewController.m in Sources */,
@@ -571,6 +586,7 @@
 				A6F6509E1F46805000D04243 /* OrderViewController.m in Sources */,
 				A6BBAA3C1F37FE0600419C9E /* TAAnimatedDotView.m in Sources */,
 				A6C2D7E81F2ADD81002342B6 /* EditLLImagePickerVC.m in Sources */,
+				A6F6510E1F482A6F00D04243 /* UIView+Attribute.m in Sources */,
 				A6BBAA3E1F37FE0600419C9E /* TAPageControl.m in Sources */,
 				A6C2D7D91F2ADCB6002342B6 /* UIImage+Phippy.m in Sources */,
 				A6C2D7721F29DD5D002342B6 /* MerchantLogoReusableView.m in Sources */,

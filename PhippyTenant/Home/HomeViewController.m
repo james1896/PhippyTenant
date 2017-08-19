@@ -13,6 +13,7 @@
 #import "PHIRequest.h"
 
 #import "SDCycleScrollView.h"
+#import "ShopActivityViewController.h"
 
 //---------------------------------------------------------------------------------------
 //  HomeHeaderView
@@ -174,6 +175,9 @@
 
 - (void)latestTap{
     NSLog(@"%@",NSStringFromSelector(_cmd));
+    ShopActivityViewController *shopController = [[ShopActivityViewController alloc]init];
+    [self.phippyNavigationController pushViewController:shopController animated:YES];
+    
 }
 
 - (void)manageTap{
